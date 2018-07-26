@@ -1,8 +1,12 @@
 # Change file for File::Hotfolder
 
-{{$NEXT}}
-    - support forking (issue #6)
- 
+0.06
+    - bugfix for new directory race
+
+0.05
+    - initial support for forking (issue #6)
+    - added event_mask param
+
 0.04  2015-03-26 11:53:22 CET
     - improved filter and new option: filter_dir (issue #7)
     - extended logging
